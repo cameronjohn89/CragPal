@@ -1,0 +1,37 @@
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+
+# Ignore environment-specific files
+.env
+.flaskenv
+
+# Ignore database files
+database.db
+database.db-journal
+
+# Ignore log files
+*.log
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore local development files
+venv/
+*.sqlite
+
+# Ignore OS-generated files
+.DS_Store
+
+# Ignore compiled Python files
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore local configuration files
+config.local.py
+
+# Ignore any other temporary or generated files
+*.tmp
+*.bak
